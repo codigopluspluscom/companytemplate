@@ -1,0 +1,130 @@
+/*style the body with a background image, and font family*/
+body{
+    
+    background: url(http://freenaturestock.s3.amazonaws.com/502.jpg) no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arvo, serif;
+   
+}
+/*image brand*/
+.brandLogo{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 28px;
+    
+}
+
+/*nav bar*/
+
+/*lets style the navbar*/
+.navbar-inverse {
+/*    background-color: rgba(0,0,0,.5);*/
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-size: 16px;
+    margin-right: 35px;
+    margin-top: 5px;
+    padding-top: 10px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover
+/*.navbar-inverse .navbar-nav > li > a:focus*/ {
+/*    background-color: white;*/
+    border-bottom: 1px solid #FF8000;
+    padding-bottom: 14px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: white;
+    
+}
+
+.navbar-inverse .navbar-text {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #FF8000;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+/*style the JUMBOTRON by making it pretty*/
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 2.5px;
+    margin: 10;
+}
+
+/*limit width of icon section*/
+.container{
+    max-width: 1000px;
+}
+
+/*icons section*/
+.iconsPic{
+ height: 99px;    
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+#iconos{
+    font-size: 14px;
+}
+
+/*contact section*/
+.contactButton{
+    text-align: center;
+    margin-top: 29px;
+}
+.btn{
+    background-color: rgba(255,128,0,.6);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(255,128,0);
+    
+    color: white;
+}
+#copyrights {
+    color: #FF8000;
+     text-align: left;
+}
+#copyrights a{
+    color: black;
+}
+/*footer section*/
+
+/*media to change the size of the icons for mobile and small devices*/
+
+.footer.footer{
+   margin-top: 70px;
+  margin-left: -380px;
+   
+}
