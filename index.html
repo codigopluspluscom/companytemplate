@@ -28,10 +28,10 @@
           </div>
           <div class=" collapse navbar-collapse " id="navcollapse">
               <ul class="nav navbar-nav">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Porfolio</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+<!--                  <li ><a   href="#myModal">contact</a></li>-->
+                  
               
               </ul>
           </div>
@@ -70,8 +70,9 @@
       </div>
       <div class="contactButton">
       <div class="container">
-          <a href="" class="btn">Get in Touch</a>
-          </div>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Get In Touch
+</button>
       </div>
     
       <!-- footer!-->
@@ -79,11 +80,45 @@
     
         <footer class="footer">
       <div class="container">
+          <div id="copyrights">
            <p>&copy; Developed by <a href="http://oscarogando.com">OX</a></p>
+              </div>
       </div>
     </footer>
          
-      
+      <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+            <label for="recipient-name" class="control-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+            </div>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+            </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

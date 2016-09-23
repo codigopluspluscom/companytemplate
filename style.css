@@ -97,7 +97,20 @@ body{
 #iconos{
     font-size: 14px;
 }
+.col-lg-4 p {
+    text-align: center;
+    color: white;
+}
+.container h1{
+      color: #FF8000;
+}
 
+.col-lg-12{
+    color: #FF8000;
+}
+img-circle img-responsive{
+    align-self: center;
+}
 /*contact section*/
 .contactButton{
     text-align: center;
